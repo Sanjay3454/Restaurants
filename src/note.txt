@@ -1,0 +1,124 @@
+React
+-React is a frontend library of js 
+
+
+Angular	React
+-framework – developers nu full control undavilla	-library – developers nu all access
+-real DOM - (in real DOM if an component change then the entire component will recompile)	-virtual DOM - (in real DOM if an component change then that component only recompile)
+-building blocks 
+Html, css, typescript	-building blocks
+Html, css, javascript
+
+
+Advantages
+-virtual dom (faster and storage space)
+-reusable components 
+-concept of jsx (javascript Xml)- mixed of html and js – we use html and js in one page
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Installation command 
+Global installation
+-------------------------------------------
+npm i -g Create-react-app projectName
+local installation
+-------------------------------------
+Npx- node module page ne execulte cheyyan pattum  npx  Create-react-app projectName
+npm start
+
+
+
+In App.js there must be 1 parent element 
+import React from 'react'
+
+function New() {
+    //js code 
+  return (
+    <>
+    <h1>New component</h1>
+    <h1>New component</h1>
+    </>
+  )
+}
+
+export default New
+
+rfce – import a function component short cut
+--------
+r-react 
+f-function 
+c- component 
+e-export 
+
+data sharing
+parent component – child component 
+
+variable-state
+
+
+
+
+
+
+
+
+Managing state in react (for functional component) we use hooks
+1)	useState – react library
+2)	
+
+props(data sharing in react)
+technique used to share data from parent component to child component 
+
+we use state and variable for store data 
+direct value kodukkuvanel nammakkk variable use cheyyam . but valua pinned anu varunnath engil state use cheyyam. Like asynchronous call api 
+
+
+Redirection In react
+-----------------------
+
+react-router-dom  - library used for redirection 
+
+component used for routing 
+----------------------
+BrowserRouter - root component selector
+Route - for path setting
+Routes - if we use more than one path 
+
+
+params
+------
+
+-useParams - hook used to access params
+
+
+REDUX
+-----
+props drilling - data will stuck in any intermediate component when the component have any issues 
+- props drilling occurs during 
+
+coupling - many connection between parent and child 
+
+to avoid props drilling we need to reduce coupling and make all components independent
+
+so react introduced a state management technology - redux 
+
+
+a js store file 
+
+redux 
+react-redux 
+redux-thunk
+
+
+in redux we use api calls . but redux is synchronous we need to change
+ it to asynchronous . so we use middleware to change redux to asynchronous 
+
+thunk is used for middlwware creation
+
+store apply cheyyan provider use cheyyunnu 
+
+axios 
+------
+used to call api in react 
+
+useSelector - hook used to access data from store 
+
